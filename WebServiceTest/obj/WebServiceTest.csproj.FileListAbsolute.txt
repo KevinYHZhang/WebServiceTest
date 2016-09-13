@@ -1,0 +1,5 @@
+D:\SourceCode\WebServiceTest\WebServiceTest\bin\WebServiceTest.dll
+D:\SourceCode\WebServiceTest\WebServiceTest\bin\WebServiceTest.pdb
+D:\SourceCode\WebServiceTest\WebServiceTest\obj\Debug\ResolveAssemblyReference.cache
+D:\SourceCode\WebServiceTest\WebServiceTest\obj\Debug\WebServiceTest.dll
+D:\SourceCode\WebServiceTest\WebServiceTest\obj\Debug\WebServiceTest.pdb

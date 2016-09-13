@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema1" targetNamespace="http://tempuri.org/XMLSchema1.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema1.xsd" xmlns:mstns="http://tempuri.org/XMLSchema1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Document">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="WBK_PED_HEAD">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WBOOK_NO" type="xs:string" />
+              <xs:element name="TRADE_CO" type="xs:string" />
+              <xs:element name="TRADE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="DISTRICT_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="OWNER_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="OWNER_NAME" type="xs:string" />
+              <xs:element name="AGENT_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="AGENT_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="TRAF_MODE" type="xs:string" minOccurs="0" />
+              <xs:element name="I_E_PORT" type="xs:string" minOccurs="0" />
+              <xs:element name="DISTINATE_PORT" type="xs:string" minOccurs="0" />
+              <xs:element name="TRAF_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CONTR_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_RATIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BILL_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="TRADE_COUNTRY" type="xs:string" minOccurs="0" />
+              <xs:element name="TRADE_MODE" type="xs:string" minOccurs="0" />
+              <xs:element name="CUT_MODE" type="xs:string" minOccurs="0" />
+              <xs:element name="PAY_MODE" type="xs:string" minOccurs="0" />
+              <xs:element name="TRANS_MODE" type="xs:string" minOccurs="0" />
+              <xs:element name="PAY_WAY" type="xs:string" minOccurs="0" />
+              <xs:element name="FEE_MARK" type="xs:string" minOccurs="0" />
+              <xs:element name="FEE_CURR" type="xs:string" minOccurs="0" />
+              <xs:element name="FEE_RATE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OTHER_MARK" type="xs:string" minOccurs="0" />
+              <xs:element name="OTHER_CURR" type="xs:string" minOccurs="0" />
+              <xs:element name="OTHER_RATE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="INSUR_MARK" type="xs:string" minOccurs="0" />
+              <xs:element name="INSUR_CURR" type="xs:string" minOccurs="0" />
+              <xs:element name="INSUR_RATE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PACK_NO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GROSS_WT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NET_WT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LICENSE_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="APPR_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="MANUAL_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="I_E_DATE" type="xs:dateTime" />
+              <xs:element name="WRAP_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="NOTE_S" type="xs:string" minOccurs="0" />
+              <xs:element name="D_DATE" type="xs:dateTime" />
+              <xs:element name="EX_SOURCE" type="xs:string" minOccurs="0" />
+              <xs:element name="VOYAGE_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="IE_FLAG" type="xs:string" minOccurs="0" />
+              <xs:element name="PRDTID" type="xs:string" minOccurs="0" />
+              <xs:element name="STORENO" type="xs:string" minOccurs="0" />
+              <xs:element name="RAMANUALNO" type="xs:string" minOccurs="0" />
+              <xs:element name="RADECLNO" type="xs:string" minOccurs="0" />
+              <xs:element name="PRE_ENTRY_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="WBOOK_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="ACTION_DIR" type="xs:string" minOccurs="0" />
+              <xs:element name="CLASSIFY_TYPE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="DocumentKey1">
+      <xs:selector xpath=".//mstns:WBK_PED_HEAD" />
+      <xs:field xpath="mstns:WBOOK_NO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
